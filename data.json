@@ -1,0 +1,63 @@
+[
+  {
+    "route": "person",
+    "properties": [
+      "name",
+      "age",
+      "petIds"
+    ],
+    "data": [
+      {
+        "id": 1,
+        "name": "Jan",
+        "age": 40,
+        "petIds": [
+          1,
+          2
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Marvi",
+        "age": 33,
+        "petIds": [
+          3
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Priscilla",
+        "age": 25,
+        "petIds": [
+          1
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Testerke",
+        "age": "85",
+        "petIds": []
+      }
+    ]
+  },
+  {
+    "route": "pet",
+    "properties": [
+      "name"
+    ],
+    "data": [
+      {
+        "id": 1,
+        "name": "Twinkie"
+      },
+      {
+        "id": 2,
+        "name": "Loekie"
+      },
+      {
+        "id": 3,
+        "name": "Senna"
+      }
+    ]
+  }
+]
